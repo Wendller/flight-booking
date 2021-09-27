@@ -1,14 +1,22 @@
 {
   "excluded": [],
-  "failed": [],
+  "failed": [
+    {
+      "describe": "generate/1",
+      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/bookings/report_test.exs",
+      "line": 15,
+      "module": "Elixir.Flightex.Bookings.ReportTest",
+      "test": "test generate/1 when called, return the content"
+    }
+  ],
   "invalid": [],
   "passed": [
     {
       "describe": "build/4",
-      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/users/users_test.exs",
-      "line": 9,
-      "module": "Elixir.Flightex.Users.UserTest",
-      "test": "test build/4 when all params are valid, returns the user"
+      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/bookings/booking_test.exs",
+      "line": 7,
+      "module": "Elixir.Flightex.Bookings.BookingTest",
+      "test": "test build/4 when all params are valid, returns a booking"
     },
     {
       "describe": "build/4",
@@ -19,10 +27,10 @@
     },
     {
       "describe": "build/4",
-      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/bookings/booking_test.exs",
-      "line": 7,
-      "module": "Elixir.Flightex.Bookings.BookingTest",
-      "test": "test build/4 when all params are valid, returns a booking"
+      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/users/users_test.exs",
+      "line": 9,
+      "module": "Elixir.Flightex.Users.UserTest",
+      "test": "test build/4 when all params are valid, returns the user"
     },
     {
       "describe": "call/1",
@@ -30,13 +38,6 @@
       "line": 13,
       "module": "Elixir.Flightex.Bookings.CreateOrUpdateTest",
       "test": "test call/1 when all params are valid, returns a valid tuple"
-    },
-    {
-      "describe": "get/1",
-      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/users/user_agent_test.exs",
-      "line": 43,
-      "module": "Elixir.Flightex.Users.AgentTest",
-      "test": "test get/1 when the user is found, returns the user"
     },
     {
       "describe": "get/1",
@@ -54,10 +55,10 @@
     },
     {
       "describe": "get/1",
-      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/bookings/booking_agent_test.exs",
-      "line": 34,
-      "module": "Elixir.Flightex.Bookings.AgentTest",
-      "test": "test get/1 when the user is found, return a booking"
+      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/users/user_agent_test.exs",
+      "line": 43,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test get/1 when the user is found, returns the user"
     },
     {
       "describe": "get/1",
@@ -74,11 +75,11 @@
       "test": "test save/1 when the param are valid, return a booking uuid"
     },
     {
-      "describe": "call/1",
-      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/users/create_or_update_test.exs",
-      "line": 14,
-      "module": "Elixir.Flightex.Users.CreateOrUpdateTest",
-      "test": "test call/1 when all params are valid, return a tuple"
+      "describe": "get/1",
+      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/bookings/booking_agent_test.exs",
+      "line": 34,
+      "module": "Elixir.Flightex.Bookings.AgentTest",
+      "test": "test get/1 when the user is found, return a booking"
     },
     {
       "describe": "call/1",
@@ -86,6 +87,13 @@
       "line": 35,
       "module": "Elixir.Flightex.Users.CreateOrUpdateTest",
       "test": "test call/1 when cpf is a integer, returns an error"
+    },
+    {
+      "describe": "call/1",
+      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/users/create_or_update_test.exs",
+      "line": 14,
+      "module": "Elixir.Flightex.Users.CreateOrUpdateTest",
+      "test": "test call/1 when all params are valid, return a tuple"
     }
   ],
   "skiped": []
