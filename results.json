@@ -1,14 +1,6 @@
 {
   "excluded": [],
-  "failed": [
-    {
-      "describe": "generate/1",
-      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/bookings/report_test.exs",
-      "line": 15,
-      "module": "Elixir.Flightex.Bookings.ReportTest",
-      "test": "test generate/1 when called, return the content"
-    }
-  ],
+  "failed": [],
   "invalid": [],
   "passed": [
     {
@@ -47,6 +39,13 @@
       "test": "test get/1 when the user is't founded, returns an error"
     },
     {
+      "describe": "get/1",
+      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/users/user_agent_test.exs",
+      "line": 43,
+      "module": "Elixir.Flightex.Users.AgentTest",
+      "test": "test get/1 when the user is found, returns the user"
+    },
+    {
       "describe": "save/1",
       "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/users/user_agent_test.exs",
       "line": 18,
@@ -54,11 +53,11 @@
       "test": "test save/1 when the user is saves, returns an tuple"
     },
     {
-      "describe": "get/1",
-      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/users/user_agent_test.exs",
-      "line": 43,
-      "module": "Elixir.Flightex.Users.AgentTest",
-      "test": "test get/1 when the user is found, returns the user"
+      "describe": "get_all/0",
+      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/bookings/booking_agent_test.exs",
+      "line": 66,
+      "module": "Elixir.Flightex.Bookings.AgentTest",
+      "test": "test get_all/0 should returns a list of bookings"
     },
     {
       "describe": "get/1",
@@ -80,6 +79,34 @@
       "line": 34,
       "module": "Elixir.Flightex.Bookings.AgentTest",
       "test": "test get/1 when the user is found, return a booking"
+    },
+    {
+      "describe": "get_booking/1",
+      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/flightex_test.exs",
+      "line": 34,
+      "module": "Elixir.FlightexTest",
+      "test": "test get_booking/1 should return a booking"
+    },
+    {
+      "describe": "create_booking/1",
+      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/flightex_test.exs",
+      "line": 19,
+      "module": "Elixir.FlightexTest",
+      "test": "test create_booking/1 when correct params are passed, returns a tuple"
+    },
+    {
+      "describe": "create_user/1",
+      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/flightex_test.exs",
+      "line": 5,
+      "module": "Elixir.FlightexTest",
+      "test": "test create_user/1 when correct params are passed, returns a tuple"
+    },
+    {
+      "describe": "generate_report/2",
+      "file": "/home/wendler/Documentos/myStudies/rocketseat/ignite/elixir/chapterII/challenges/flight-booking/test/bookings/report_test.exs",
+      "line": 13,
+      "module": "Elixir.Flightex.Bookings.ReportTest",
+      "test": "test generate_report/2 when called, return the content"
     },
     {
       "describe": "call/1",
